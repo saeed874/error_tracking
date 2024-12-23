@@ -2,6 +2,7 @@
 import 'package:analytics_tracker/analytics_tracker.dart';
 import 'package:analytics_tracker/src/analytics_manager.dart';
 import 'package:analytics_tracker/src/analytics_platform.dart';
+import 'package:analytics_tracker/src/analytics_service.dart';
 
 class AnalyticsErrorTracking {
   static Future<void> initialize({

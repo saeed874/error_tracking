@@ -1,7 +1,8 @@
 name: analytics_tracker
 description: A comprehensive analytics and error tracking solution for Flutter
 version: 0.0.1
-homepage:
+homepage: https://github.com/saeed874/analytics_tracker
+repository: https://github.com/saeed874/analytics_tracker
 
 environment:
   sdk: '>=3.0.0 <4.0.0'
@@ -12,14 +13,13 @@ dependencies:
     sdk: flutter
   firebase_analytics: ^10.7.4
   sentry: ^7.14.0
-  shared_preferences: ^2.2.2
   device_info_plus: ^9.1.1
   package_info_plus: ^5.0.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^4.0.0
+  flutter_lints: ^3.0.1
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
