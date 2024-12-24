@@ -3,12 +3,8 @@ import 'package:analytics_tracker/analytics_tracker.dart';
 import 'package:analytics_tracker/src/analytics_platform.dart';
 import 'package:analytics_tracker/src/analytics_service.dart';
 
-import 'error_tracker.dart';
-import 'performance_monitor.dart';
-
 class AnalyticsManager {
   final ErrorTracker _errorTracker;
-  final PerformanceMonitor _performanceMonitor;
   final List<AnalyticsPlatform> _platforms;
 
   static AnalyticsManager? _instance;
@@ -18,7 +14,6 @@ class AnalyticsManager {
     required PerformanceMonitor performanceMonitor,
     required List<AnalyticsPlatform> platforms,
   })  : _errorTracker = errorTracker,
-        _performanceMonitor = performanceMonitor,
         _platforms = platforms;
 
   static Future<AnalyticsManager> initialize(AnalyticsConfig config) async {
