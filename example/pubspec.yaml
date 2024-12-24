@@ -1,4 +1,4 @@
-name: analytics_error_tracking_example
+name: analytics_tracker
 description: Example app for analytics error tracking package
 publish_to: none
 
